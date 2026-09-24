@@ -63,9 +63,18 @@ The game ends when the snake:
 
 ## 📸 Screenshots
 
-![Snake Game Screenshot](images/## 📸 Screenshots
+### Welcome Page
 
-![Snake Game Screenshot](images/snake-game.jpg)
+![Snake Game - Welcome Page](images/welcomePage.jpg)
+
+### Game Screen
+
+![Snake Game - Game Screen](images/GameScreen.jpg)
+
+### Game Over Screen
+
+![Snake Game - End Page](images/EndPage.jpg)
+
 
 ## 📚 Learning Outcomes
 
