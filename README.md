@@ -60,13 +60,12 @@ The game ends when the snake:
 * Hits the game boundary.
 * Collides with its own body.
 
+
 ## 📸 Screenshots
 
-Screenshots of the game can be added here.
+![Snake Game Screenshot](images/## 📸 Screenshots
 
-```text
-Add your game screenshot here
-```
+![Snake Game Screenshot](images/snake-game.jpg)
 
 ## 📚 Learning Outcomes
 
