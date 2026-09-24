@@ -1,10 +1,12 @@
 # 🐍 Snake Game
 
-A classic Snake Game developed using **Java Swing**. The game provides a simple graphical interface where the player controls a snake, collects food, and tries to achieve the highest possible score without colliding with the walls or itself.
+A classic **Snake Game developed using Java Swing**. The player controls the snake using keyboard arrow keys, collects food to increase the score, and avoids collisions with the game boundaries and the snake's own body.
 
 ## 📌 Project Overview
 
-This project was developed to practice Java programming concepts, GUI development, event handling, keyboard controls, and game logic using Java Swing.
+This project is a desktop-based Snake Game built using **Java Swing and AWT**. It was developed to practice Java programming, GUI development, event handling, keyboard input, timers, image handling, and game logic.
+
+The game includes a welcome screen, gameplay screen, score tracking, collision detection, snake growth, and a game-over screen.
 
 ## 🛠️ Technologies Used
 
@@ -15,14 +17,15 @@ This project was developed to practice Java programming concepts, GUI developmen
 
 ## 🎮 Features
 
-* Snake movement using keyboard arrow keys
-* Food generation
-* Score tracking
-* Snake growth after eating food
-* Collision detection
-* Game-over functionality
-* Graphical user interface using Java Swing
-* Custom images for the snake and food
+* 🐍 Snake movement using keyboard arrow keys
+* 🍎 Random food generation
+* 📈 Real-time score tracking
+* 🐍 Snake growth after eating food
+* 💥 Collision detection
+* 🚫 Game-over detection
+* 🖥️ Graphical user interface using Java Swing
+* 🎨 Custom images for the snake and food
+* 🔄 Restart option after game over
 
 ## 📂 Project Structure
 
@@ -32,34 +35,44 @@ Snake-Game/
 ├── src/
 │   └── sankeGame/
 │       ├── Board.java
+│       ├── SnakeGame.java
 │       └── Other Java source files
 │
 ├── images/
-│   ├── Snake head image
-│   ├── Snake body image
-│   └── Food image
+│   ├── welcomePage.jpg
+│   ├── GameScreen.jpg
+│   └── EndPage.jpg
 │
 └── README.md
 ```
 
 ## ▶️ How to Run
 
-1. Clone or download this repository.
+### Prerequisites
+
+* Java JDK installed on your computer
+* Eclipse IDE or another Java IDE
+
+### Steps
+
+1. Download or clone this repository.
 2. Open the project in **Eclipse IDE**.
-3. Make sure the image files are available in the project's `images` folder.
-4. Open the main Java class.
-5. Run the application as a **Java Application**.
-6. Use the keyboard arrow keys to control the snake.
+3. Make sure the `src` folder is configured as the source folder.
+4. Make sure the required image files are available in the `images` folder.
+5. Open the main Java class.
+6. Run the application as a **Java Application**.
+7. Use the **Arrow Keys** to control the snake.
 
-## 🎯 Game Objective
+## 🎯 How to Play
 
-Control the snake, eat the food, and increase your score.
-
-The game ends when the snake:
-
-* Hits the game boundary.
-* Collides with its own body.
-
+* Use **↑ Up Arrow** to move up.
+* Use **↓ Down Arrow** to move down.
+* Use **← Left Arrow** to move left.
+* Use **→ Right Arrow** to move right.
+* Eat the food to increase your score.
+* Avoid hitting the game boundaries.
+* Avoid colliding with the snake's own body.
+* Use the **Restart** button after game over to play again.
 
 ## 📸 Screenshots
 
@@ -75,19 +88,19 @@ The game ends when the snake:
 
 ![Snake Game - End Page](images/EndPage.jpg)
 
-
 ## 📚 Learning Outcomes
 
 Through this project, I practiced:
 
 * Java programming
-* Object-oriented programming concepts
+* Object-oriented programming
 * Java Swing GUI development
+* AWT components
 * Event handling
-* Keyboard input
+* Keyboard input handling
 * Timers and game loops
 * Collision detection
-* Working with images in Java
+* Image handling
 * Project organization in Eclipse
 
 ## 👩‍💻 Author
